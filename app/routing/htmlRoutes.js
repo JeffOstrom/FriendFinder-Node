@@ -1,5 +1,6 @@
 //html route setup
 
+// get FRIENDS array in JSON format 
 function test(APP){
 
 	APP.get('/', function(req, res){
