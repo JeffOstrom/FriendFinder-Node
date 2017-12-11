@@ -1,4 +1,4 @@
-//NPM installs required 
+//NPM installs required/Dependencies
 var EXPRESS = require('express');
 var BODYPARSER = require('body-parser');
 var PATH = require('path');
