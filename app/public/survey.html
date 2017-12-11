@@ -16,7 +16,7 @@
 
 <body>
 
-<h1>Friend Finder Survey Questions</h1>
+<h1>Survey Questions</h1>
 <hr>
 
 <h2><strong>About You</strong></h2>
@@ -136,7 +136,48 @@
     <option value="5">5 (Strongly Agree)</option>
 </select>
 
+<br>
+<br>
 
+<div class= "container">
+   
+        <a href="/api/freinds">API Freinds List</a>
+</div>
+
+<br>
+
+<!--Submit button survey-->
+<button type="submit" class= "btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+
+<!--Using jQuery HTML responses-->
+<script type="text/javascript">
+    
+    $('#submit').on("click", function(){
+
+
+    })
+
+    //Post user survey data to API 
+    if(formFill)
+    {
+        "name": $('#name').val(),
+        "photo": $('#photo').val(),
+        "scores":[
+                    $('#Q1').val(),
+                    $('#Q2').val(),
+                    $('#Q3').val(),
+                    $('#Q4').val(),
+                    $('#Q5').val(),
+                    $('#Q6').val(),
+                    $('#Q7').val(),
+                    $('#Q8').val(),
+                    $('#Q9').val(),
+                    $('#Q10').val(),
+        ]
+    };
+
+    // I need to $.post to the server now!
+</script>
 
 
 

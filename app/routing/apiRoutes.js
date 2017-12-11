@@ -17,6 +17,7 @@ module.exports = function(app)
 }
 
 //loop through scores of each friend to find the best match
+//Testting not working correctly
 function compareScores(user)
 {
 	var bff;

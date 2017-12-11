@@ -13,11 +13,10 @@ APP.use(BODYPARSER.text());
 APP.use(BODYPARSER.json({ type: "application/vnd.api+json" }));
 
 //path to serve static files.
-// NOTE: May need to change to your folder if different.
 APP.use(EXPRESS.static(PATH.join(__dirname, '/app')));
 
-// ROUTER - Below points our server to a series of "route" files.
-// NOTE: EXAMPLES. Change your particular routes if different. 
+// ROUTE - Server to a series of "route" files.
+
 require("./app/routing/api-routes.js")(APP);
 require("./app/routing/html-routes.js")(APP);
 
