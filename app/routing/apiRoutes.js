@@ -31,8 +31,19 @@ function compareScores(user)
 
 		var total = 0; 
 
-		for (var i = 0; i < user.scores.length; i++) {
-			
+		for (var i = 0; i < user.scores.length; i++) 
+		{
+			total =+ Math.abs(user.scores[i]- friend.scores[i])
 		}
+
+		//If total is the lowest 
+		if(total < lowestTotal)
+		{
+			lowestTotal = Total; 
+			bff =firend;
+
+		}
+
+		return(bff);
 
 }
