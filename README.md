@@ -1,6 +1,50 @@
-<!--go back and edit READme.md to look professional-->
 
-Overview
+Synopsis
+-------------------------------------------------------------------------------------
 
-In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
-You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
+- Find your next date! or possibly future spouse! 
+
+- From the home page click Go To Survey to begin. 
+
+- Once on the survey page begin filling out the required 10 questions and click submit.
+
+- The app will match you with your most compatibile match based on the survey.
+
+- Check it out! https://jeffostrom.github.io/Friendfinder-Node/.
+
+Built With
+-------------------------------------------------------------------------------------
+
+- Express
+
+- Node Js
+
+- CSS3
+
+- Bootstrap 4
+
+- HTML5 
+
+Resources
+-------------------------------------------------------------------------------------
+
+- None
+
+API
+-------------------------------------------------------------------------------------
+
+- None 
+
+Contributors
+-------------------------------------------------------------------------------------
+
+- Jeffrey Ostrom
+
+License
+-------------------------------------------------------------------------------------
+
+- None
+
+Acknowledgments
+-------------------------------------------------------------------------------------
+
