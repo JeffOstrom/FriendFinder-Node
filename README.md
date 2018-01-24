@@ -2,7 +2,7 @@
 Synopsis
 -------------------------------------------------------------------------------------
 
-- Find your next date! or possibly future spouse! 
+- Find your next best friend!  
 
 - From the home page click Go To Survey to begin. 
 
