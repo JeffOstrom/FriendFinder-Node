@@ -1,7 +1,7 @@
 //routes for API express
 
 // get FRIENDS array in JSON format 
-var FRIENDS = require("../data/friends.js");
+var FRIENDS = require("../data/friends");
 
 module.exports = function(app)
 {
