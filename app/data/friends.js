@@ -4,16 +4,16 @@ var friends = [
   "name":"Michael Jordan",
   "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Jordan_Lipofsky.jpg/170px-Jordan_Lipofsky.jpg",
   "scores":[
-      5,
-      1,
-      4,
-      4,
-      5,
-      1,
-      2,
-      5,
-      4,
-      1
+      "5",
+      "1",
+      "4",
+      "4",
+      "5",
+      "1",
+      "2",
+      "5",
+      "4",
+      "1"
     ]
  },
  {

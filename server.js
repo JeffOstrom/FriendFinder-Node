@@ -1,27 +1,25 @@
 //NPM installs required/Dependencies
-var EXPRESS = require('express');
-var BODYPARSER = require('body-parser');
-var PATH = require('path');
+var express = require('express');
+var bodyparser = require('body-parser');
+var path = require('path');
 
 var PORT = process.env.PORT || 3000; 
-var APP = EXPRESS();
+var app = EXPRESS();
 
 //Server structure to interpret data sent to it.
-APP.use(BODYPARSER.json());
-APP.use(BODYPARSER.urlencoded({ extended: true }));
-APP.use(BODYPARSER.text());
-APP.use(BODYPARSER.json({ type: "application/vnd.api+json" }));
+app.use(bodyparser.json());
+app.use(bodyparser.urlencoded({ extended: true }));
+app.use(bodyparser.text());
+app.use(bodyparser.json({ type: "application/vnd.api+json" }));
 
 //path to serve static files.
-APP.use(EXPRESS.static(PATH.join(__dirname, '/app')));
+app.use(express.static(PATH.join(__dirname, '/app')));
 
 // ROUTE - Server to a series of "route" files.
-
-require("./app/routing/api-routes.js")(APP);
-require("./app/routing/html-routes.js")(APP);
-
+require("./app/routing/api-routes.js")(app);
+require("./app/routing/html-routes.js")(app);
 
 //Express Listener
-APP.listen(PORT, function(){
-	console.log("Listening on port:", PORT);
+app.listen(PORT, function(){
+	console.log("Listening on PORT: ", + PORT);
 });
