@@ -10,7 +10,7 @@ Synopsis
 
 - The app will match you with your most compatibile match based on the survey.
 
-- Check it out! https://jeffostrom.github.io/Friendfinder-Node/.
+- Check it out! 
 
 Built With
 -------------------------------------------------------------------------------------

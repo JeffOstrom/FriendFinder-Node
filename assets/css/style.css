@@ -1,4 +1,25 @@
 .display-3 { 
 font-weight: bold;
-font-size: 95px;
+font-size: 295px;
  }
+
+.jumbotron h1 {
+    color:red;
+}
+
+
+.jumbotron{
+    background: blue;
+
+}
+
+h1{
+	font-size: 77px;
+}
+h2{
+    color-text:red;
+}
+
+.container{
+    color: red;
+}

@@ -18,33 +18,33 @@ module.exports = function(app)
 
 //loop through scores of each friend to find the best match
 //Testting not working correctly
-function compareScores(user)
-{
-	var bff;
+// function compareScores(user)
+// {
+// 	var bff;
 
-	var lowestTotal = 100;
+// 	var lowestTotal = 100;
 
-	For(var key in FREINDS)
-	{
+// 	For(var key in FRIENDS)
+// 	{
 
-		//friend array
-		var friend = FRIENDS[Key];
+// 		//friend array
+// 		var friend = FRIENDS[Key];
 
-		var total = 0; 
+// 		var total = 0; 
 
-		for (var i = 0; i < user.scores.length; i++) 
-		{
-			total =+ Math.abs(user.scores[i]- friend.scores[i])
-		}
+// 		for (var i = 0; i < user.scores.length; i++) 
+// 		{
+// 			total =+ Math.abs(user.scores[i]- friend.scores[i])
+// 		}
 
-		//If total is the lowest 
-		if(total < lowestTotal)
-		{
-			lowestTotal = Total; 
-			bff =firend;
+// 		//If total is the lowest 
+// 		if(total < lowestTotal)
+// 		{
+// 			lowestTotal = Total; 
+// 			bff =firend;
 
-		}
+// 		}
 
-		return(bff);
+// 		return(bff);
 
-}
+// }
